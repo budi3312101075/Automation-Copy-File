@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --clean --icon=logo.ico autocopy.py
