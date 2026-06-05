@@ -1,1 +1,3 @@
 pyinstaller --onefile --noconsole --clean --version-file version.txt --icon=logo.ico autocopy.py
+
+python -m PyInstaller --onefile --noconsole --clean --version-file version.txt --icon=logo.ico --add-data "logo.ico;." autocopy.py

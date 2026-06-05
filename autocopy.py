@@ -21,11 +21,17 @@ from datetime import datetime
 import pystray
 from PIL import Image, ImageDraw
 
-sumber = r"D:\TES-SCRIPT"
-tujuan = r"\\172.16.112.10\shared\TES SCRIPT"
-server_ip = "172.16.112.10"
+# sumber = r"D:\TES-SCRIPT"
+# tujuan = r"\\172.16.112.10\shared\TES SCRIPT\TEST-APP-COPY"
+# server_ip = "172.16.112.10"
 
-log_file = r"D:\TES-SCRIPT\log\autocopylog.txt"
+# log_file = r"D:\TES-SCRIPT\log\autocopy.log"
+
+sumber = r"C:\Data@Prism"
+tujuan = r"\\192.168.100.52\for_PEBMT\Prism Inspection Log (Jangan Di Hapus)\Hav3P\Prism Empty Check\MB LL"
+server_ip = "192.168.100.52"
+
+log_file = r"D:\automation\bat\autocopy.log"
 
 # =========================
 # LOGGING
